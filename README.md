@@ -4,11 +4,10 @@ Famous TurboWieszcz poem generator (in Polish only) - SQL version (MSSQL)
 - Tested on: Microsoft SQL Server Express: 2012, 2014, 2016, 2019
 - Will not work on MSSQL 2008 and below due to use of CONCAT.
 - To run:
-**
-  declare @poem varchar(max)<br />
-  execute dbo.TurboWieszcz 6, 0, 0, @poem out<br />
-  print(@poem)<br />
-**
+
+  **declare @poem varchar(max)**<br />
+  **execute dbo.TurboWieszcz 6, 0, 0, @poem out**<br />
+  **print(@poem)**<br />
 
 ---
 
