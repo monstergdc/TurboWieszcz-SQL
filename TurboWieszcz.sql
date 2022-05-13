@@ -15,7 +15,7 @@
 -- Note: will not work on MSSQL 2008 and below due to use of CONCAT.
 ----------------------------------------------------------------
 -- created: 20220507
--- updated: 20220508
+-- updated: 20220508, 13
 
 
 USE [master]
@@ -83,7 +83,7 @@ begin
   insert into @data (z, w, txt) values (0, 28, 'Gdy nie ka¿dego staæ na browary')
   insert into @data (z, w, txt) values (0, 29, 'Po¿ar³ Hilary swe okulary')
   insert into @data (z, w, txt) values (0, 30, 'Spowi³y nas truj¹ce opary')
-  insert into @data (z, w, txt) values (0, 31, 'To nie jest calka ani logarytm')
+  insert into @data (z, w, txt) values (0, 31, 'To nie jest ca³ka ani logarytm')
 
   -- po 8
   insert into @data (z, w, txt) values (1, 0, 'Ju¿ na arenê krew tryska')
