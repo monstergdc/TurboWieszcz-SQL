@@ -1,6 +1,6 @@
 
 ----------------------------------------------------------------
--- TurboWieszcz++ in MSSQL, v1.0
+-- TurboWieszcz++ in MSSQL, v2.0
 -- (c)2022 Noniewicz.com, Jakub Noniewicz aka MoNsTeR/GDC
 -- based directly on (translated from): previous version written in pure C
 -- which was based directly on: previous version written in Lazarus
@@ -13,9 +13,11 @@
 
 -- Tested on: Microsoft SQL Server Express: 2012, 2014, 2016, 2019
 -- Note: will not work on MSSQL 2008 and below due to use of CONCAT.
+-- Note: file encoding ANSI / CP-1250
 ----------------------------------------------------------------
 -- created: 20220507
 -- updated: 20220508, 13
+-- updated: 20220904
 
 
 USE [master]
